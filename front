@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Reveal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="notification" class="hidden">
+            <p>You have successfully voted!</p>
+            <p>Join us for the Grand Reveal</p>
+            <p>On 27 January 2025 at 10:00 a.m</p>
+            <p>In front of Physics Department</p>
+        </div>
+        <div class="logo-section">
+            <p>Logo Reveal</p>
+            <button id="revealButton">Tap to Reveal</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
